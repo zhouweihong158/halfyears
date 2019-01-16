@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=IE9">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="tiile" content>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="css/landscape.css">
+    <link rel="stylesheet" media="all and (orientation:portrait)" href="css/portrait.css">
+    <title></title>
+</head>
+<body>
+    <section id="section">
+        <div id="capsule">
+            <div id="spaceplane">
+                <div id="spaceplaneshadow"></div>
+            </div>
+            <div id="capsulecoat"></div>
+        </div>
+    </section>
+    <div id="times">
+        <div class="time time1"></div>
+        <div class="time time2"></div>
+        <div class="time time3"></div>
+    </div>
+    <a href="javascript:void(0)" class="download down"></a>
+    <div id="distance">
+        Distance:<span id="distancsnum">0</span> KM
+    </div>
+    <div id="coinnum">
+        <div id="coinnumleft"><span class="getcoinnum">0</span>/10</div>
+        <div id="coinnumright"></div>
+    </div>
+    <div id="begin"><div class="languagefont">Tippe, um zu beginnen. Contrôlez le sous-marin pour collecter des pièces d'or</div></div>
+<script>
+    var is_land;
+    function orient() {
+        if (window.orientation == 90 || window.orientation == -90) {
+            //ipad、iphone竖屏；Andriod横屏
+            $("body").attr("class", "landscape");
+            (function (doc, win) {
+                is_land=true;
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 1334) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            orientation = 'landscape';
+            return false;
+        } else if (window.orientation == 0 || window.orientation == 180) {
+            //ipad、iphone横屏；Andriod竖屏
+            $("body").attr("class", "portrait");
+            (function (doc, win) {
+                is_land=false;
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt,recalc,false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            orientation = 'portrait';
+            return false;
+        }
+    }
+    orient();
+    window.addEventListener('orientationchange',function(){
+        location.reload(false);
+        orient();
+    });
+</script>
+<script src="js/index.js"></script>
+</body>
+</html>
+
+

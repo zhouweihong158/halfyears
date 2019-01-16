@@ -1,0 +1,156 @@
+@media all and (orientation : landscape) {
+    #box{
+        background-image: url("../image/banner2.jpg");
+    }
+    .score{
+        position:absolute;
+        top:3.298350825%;
+        display: flex;
+        justify-content: space-around;
+        width:100%;
+        height:0.7rem;
+    }
+    .score1{
+        width:auto;
+        height:0.7rem;
+    }
+    #number1{
+        top:38.933333333%;
+        left:10.494752624%;
+    }
+
+    #number2{
+        bottom:37.2%;
+        left:20.914542729%;
+    }
+    #number3{
+        top:35.3333333%;
+        left:21.664167916%;
+        /*top:2.65rem;*/
+        /*left:2.89rem;*/
+    }
+    #number4{
+        bottom:46%;
+        right:58.620689655%;
+        /*bottom:3.45rem;*/
+        /*right:7.82rem;*/
+    }
+    #bulid1{
+        top:28.2666667%;
+        left:11.094452774%;
+        /*top:2.12rem;*/
+        /*left:1.48rem;*/
+    }
+    #bulid2{
+        bottom: 36.6666667%;
+        left:21.064467766%;
+        /*bottom: 2.75rem;*/
+        /*left:2.81rem;*/
+    }
+    #bulid3{
+        top:28.66666667%;
+        left:23.103493253%;
+        /*top:2.15rem;*/
+        /*left:3.07rem;*/
+    }
+    #bulid4{
+        bottom:44.5333333333%;
+        left:29.106041979%;
+        /*bottom:3.34rem;*/
+        /*left:3.89rem;*/
+    }
+    .buildside1{
+        top:36%;
+        left:16.341829085%;
+        /*top:2.7rem;*/
+        /*left:2.18rem;*/
+    }
+    .buildside2{
+        bottom:36.933333333%;
+        left:24.51243628%;
+        /*bottom:2.77rem;*/
+        /*left:3.27rem;*/
+    }
+    .buildside3{
+        top:30.133333333333%;
+        left:24.962518741%;
+        /*top:2.26rem;*/
+        /*left:3.33rem;*/
+    }
+    .buildside4{
+        top:38.133333333%;
+        left:33.208395802%;
+        /*top:2.86rem;*/
+        /*left:4.43rem;*/
+    }
+    .jiantou1{
+        position: absolute;
+        top:26.26666666%;
+        left:16.416791604%;
+        /*top:1.97rem;*/
+        /*left:2.19rem;*/
+    }
+    .jiantou2{
+        position: absolute;
+        top:39.6%;
+        left:25.712143928%;
+        /*top:2.97rem;*/
+        /*left:3.43rem;*/
+    }
+    .jiantou3{
+        position: absolute;
+        top:24.1333333333%;
+        left:26.011994003%;
+        /*top:1.81rem;*/
+        /*left:3.47rem;*/
+    }
+    .jiantou4{
+        position: absolute;
+        top:32.8%;
+        left:34.182908546%;
+        /*top:2.46rem;*/
+        /*left:4.56rem;*/
+    }
+    .boat1{
+        left:56.971514243%;
+        top:68.4%;
+        /*left:7.6rem;*/
+        /*top:5.13rem;*/
+    }
+    .boat2{
+        top:49.2%;
+        left:67.316341829%;
+        /*top:3.69rem;*/
+        /*left:8.98rem;*/
+    }
+    .boat3{
+        top:34.666666667%;
+        left:78.860569715%;
+        /*top:2.6rem;*/
+        /*left:10.52rem;*/
+    }
+    .boat3animate{
+        animation: boat 1s 1 forwards;
+    }
+    @-webkit-keyframes boat {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(2.82rem,1.95rem);
+        }
+    }
+    .boat1animate{
+        transition:3s;
+        transform:translate(2.92rem,2.37rem);
+    }
+    .boat2animate{
+        transition:5s;
+        transform:translate(4.36rem,3.35rem);
+    }
+    .downloads{
+        height:5.1rem;
+        width:7.68rem;
+        background-image: url('../image/tanchulanden.jpg');
+    }
+}

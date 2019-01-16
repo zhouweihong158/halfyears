@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=IE9">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="tiile" content>
+    <link rel="stylesheet" href="css/reset.css">
+    <!--<link rel="stylesheet" media="all and (orientation:landscape)" href="css/landscape.css">-->
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="css/landscapepercent.css">
+    <link rel="stylesheet" media="all and (orientation:portrait)" href="css/portraitpercent.css">
+    <!--<link rel="stylesheet" media="all and (orientation:portrait)" href="css/portrait.css">-->
+    <title></title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<section id="box">
+    <div id="score">
+        <img src="image/zuanshi.png" alt="" class="scoreleft">
+        <div class="scoreright">
+            <div class="myscore"></div>
+        </div>
+    </div>
+    <div class="redflashing beforeclick"></div>
+    <div id="boss">
+        <img src="image/bossmaoyan.gif" alt="" class="bossmaoyan">
+        <img src="image/guloutou.png" alt="" class="bossid">
+        <div id="bossenergy"><div class="nowbossenergy"></div></div>
+        <div id="bossimg"></div>
+    </div>
+    <ul id="bubbleer">
+        <li class="thefirst">
+            <div class="bubs"></div>
+            <div class="bubmachine"></div>
+        </li>
+        <li class="thesecond">
+            <div class="bubs"></div>
+            <div class="bubmachine"></div>
+        </li>
+        <li class="thethird">
+            <div class="bubs"></div>
+            <div class="bubmachine"></div>
+        </li>
+        <li class="thefourth">
+            <div class="bubs"></div>
+            <div class="bubmachine"></div>
+        </li>
+    </ul>
+    <div class="begin"></div>
+    <img src="image/shou.gif" alt="" class="shou shoubegin" style="display: block">
+    <img src="image/shou.gif" alt="" class="shou shoustep1">
+    <img src="image/shou.gif" alt="" class="shou shoustep2">
+    <div class="begin begins"></div>
+    <img src="image/gantanhao.png" alt="" class="myid myidfirst">
+    <img src="image/gantanhao.png" alt="" class="myid myidsecond">
+    <img src="image/gantanhao.png" alt="" class="myid myidthird">
+    <ul id="mine">
+        <li class="myboat myboatlevelz"></li>
+        <li class="myboat myboatlevelz"></li>
+        <li class="myboat myboatlevelz"></li>
+    </ul>
+    <a href="javascript:void(0)" class="download down"></a>
+    <div id="zhezhao"></div>
+</section>
+<script>
+    function orient() {
+        if (window.orientation == 90 || window.orientation == -90) {
+            //ipad、iphone竖屏；Andriod横屏
+            $("body").attr("class", "landscape");
+            (function (doc, win) {
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 1334) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            orientation = 'landscape';
+            return false;
+        } else if (window.orientation == 0 || window.orientation == 180) {
+            //ipad、iphone横屏；Andriod竖屏
+            $("body").attr("class", "portrait");
+            (function (doc, win) {
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            orientation = 'portrait';
+            return false;
+        }
+    }
+    orient();
+    window.addEventListener('orientationchange', function() {
+        location.reload(false);
+        // orient();
+    });
+</script>
+<script src="js/index.js"></script>
+</body>
+</html>

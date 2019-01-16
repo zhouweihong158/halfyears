@@ -1,0 +1,199 @@
+    #map{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/bg.jpg);
+    }
+    .launch{
+        width: 3.46rem;
+        height: 3.14rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/launch.png);
+        position: absolute;
+        bottom: 0;
+        left:  31.33333333%;
+    }
+    .h_light{
+        width: 100%;
+        height: 59%;
+        position: absolute;
+        bottom: 0;
+        left: 0;       
+        box-shadow: 0 0 0.5rem 0.1rem #fff;
+    }
+    .cell_fra{
+        width: 4.97rem;
+        height: 4.97rem;
+        position: absolute;
+        top: 11.54722638%;
+        left: 16.86666666%;
+    }
+    .cell{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/cell.png);
+        position: absolute;
+    }
+    .cell_0{
+       top: 18.20925553%;
+       left: 18.20925553%;
+       /* opacity: 0.5; */
+    }
+    .cell_1{
+        top: 8.45070422%;
+        left: 8.45070422%;
+     }
+    .cell_2{
+        top: 0%;
+        left: 0%; 
+    }
+    .treasure{
+        width: 1.86rem;
+        height: 1.05rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/treasure.png);
+        position: absolute;
+        top: 38.43058350%;
+        left: 31.28772635%;
+    }
+    .blonum_sty{
+        width: 0.87rem;
+        height: 0.31rem;
+        line-height: 0.31rem;
+        position: absolute;
+        right: 4.53333333%;
+        bottom: 1.79910044%;
+        font-size: 0.4rem;
+        color: #fff;
+        text-align: center;
+    }
+    .rocnum_sty{
+        width: 0.87rem;
+        height: 0.31rem;
+        line-height: 0.31rem;
+        position: absolute;
+        right: 0.53333333%;
+        bottom: 8.79910044%;
+        font-size: 0.25rem;
+        color: rgb(228, 208, 33);
+        text-align: center;
+    }
+    .dia{
+        width: 0.7rem;
+        height: 0.7rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/diamonds.png);
+        position: absolute;
+    }
+    .rock{
+        animation: rock .5s 2;
+    }
+    @keyframes rock{
+        0% {
+            transform: rotate3D(0,0,1,0deg);
+        }
+        25% {
+            transform: rotate3D(0,0,1,50deg);
+        }
+        50% {
+            transform: rotate3D(0,0,1,0deg);
+        }
+        75% {
+            transform: rotate3D(0,0,1,-50deg);
+        }
+        100% {
+            transform: rotate3D(0,0,1,0deg);
+        }
+    }
+    .tor{
+        width: 0.7rem;
+        height: 0.7rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/tor.png);
+        position: absolute;
+    }
+    .rift{
+        width: 0.47rem;
+        height: 0.47rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/rift.png);
+        position: absolute;
+    }
+    .rocket{
+        /* width: 0.17rem;
+        height: 1.27rem; */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/rocket.png);
+        position: absolute;
+        top: 0%;
+    }
+    .cell_bro{
+        position: absolute;
+    }
+    .tor_boom{
+        width: 1.51rem;
+        height: 1.57rem;
+        position: absolute;
+    }
+    .roc_boom{
+        width: 3.0rem;
+        height: 2.6rem;
+        position: absolute;
+    }
+    .hand{
+        width: 0.76rem;
+        height: 0.76rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/hand.png);
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        z-index: 4;
+        animation: fil .8s linear infinite;
+    }
+    @keyframes fil{
+        0% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .download{
+        width: 1.75rem;
+        height: 0.75rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/download.png);
+        position: absolute;
+        bottom: 2.17391304%;
+        left: 5.46666666%;
+    }
+    .advertising{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 5.1rem ;
+        height: 7.68rem;        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .advic{
+        background-image: url("../image/portsuccess_es.jpg");
+    }
+    .addef{
+        background-image: url("../image/portfail_en.jpg");
+    }

@@ -1,0 +1,321 @@
+    #banner {
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/background.jpg);
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        width: 1.45rem;
+        height: 0.85rem;
+        top: 1.87406296%;
+        left: 3.33333333%;
+        background-image: url(../image/logo.png); 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;      
+    }    
+    .pl_city{
+        position: absolute;
+        width: 5.27rem;
+        height: 3.65rem;
+        top: 3.29835082%;
+        right: 14.8%;
+        background-image: url(../image/player_city_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }      
+    .btn_list li{
+        position: absolute;
+        width: 0.64rem;
+        height: 0.63rem;
+    }
+    .btn_boat{
+        top: 38.90554722%;
+        left: 86.26666666%;
+        background-image: url(../image/button_boat_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .btn_boat_press{
+        background-image: url(../image/button_boat_press.png);
+    }
+    .btn_col{
+        top: 48.0509745%;
+        left: 86.26666666%;
+        background-image: url(../image/button_column_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .btn_col_press{
+        background-image: url(../image/button_column_press.png);
+    }
+    .btn_wal{
+        top: 56.97151424287856%;
+        left: 86.26666666%;        
+        background-image: url(../image/button_wall_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .btn_wal_press{
+        background-image: url(../image/button_wall_press.png);
+    }
+    .btn_rea{
+        top: 66.19190404%;
+        left: 86.26666666%;
+        background-image: url(../image/button_ready_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .btn_rea_press{
+        background-image: url(../image/button_ready_press.png);
+    }
+    .npc_boat{
+        position: absolute;
+        width: 4.90rem;
+        height: 1.33rem;
+        top: 80.05997001%;
+        left: 14.8%;
+        background-image: url(../image/npc_boat_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .down{
+        position: absolute;
+        width: 1.43rem;
+        height: 0.69rem;
+        bottom: 1.574212893%;
+        right: 2.93333333%;
+        background-image: url(../image/download.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;         
+    }
+    .fra{
+        position: absolute;  
+        left: 5.86666666%;
+        background-image: url(../image/Frame.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 5.64rem;
+        height: 1.15rem;
+        animation: fra_op 1s ease-in-out infinite;        
+    }
+    @keyframes fra_op{
+        0%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    .fra1{
+        top: 36.20689655%;
+    }
+    .fra2{
+        top: 45.95202398%;
+    }
+    .fra3{
+        top: 55.77211394%;
+    }
+    .none{
+        display: none;
+    }
+    .fangyu{
+        position: absolute;
+        left: 6.13333333%;
+    }
+    .fangyu1{
+        top: 36.35682158%;
+    }
+    .fangyu2{
+        top: 48.10194902%;
+    }
+    .fangyu3{
+        top: 57.19640179%;
+    }
+    .boatImg{
+        background-image: url(../image/player_boat_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 5.21rem;
+        height: 0.85rem;
+    }
+    .colImg{
+        background-image: url(../image/column_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 5.77rem;
+        height: 0.55rem;
+    }
+    .walImg{
+        background-image: url(../image/wall_normal.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 5.40rem;
+        height: 0.90rem;
+    }
+    .pl_fire{
+        position: absolute;
+        width: 4.90rem;
+        height: 1.33rem;
+        top: 80.05997001%;
+        left: 14.8%;
+    }
+    .npc_fire1{
+        position: absolute;
+        width: 4.90rem;
+        height: 1.33rem;
+        top: 54.12293853%;
+        left: 14.8%;
+    }
+    .npc_fire2{
+        position: absolute;
+        width: 4.90rem;
+        height: 1.33rem;
+        top: 44.97751124%;
+        left: 14.8%;
+    }
+    .npc_fire3{
+        position: absolute;
+        width: 4.90rem;
+        height: 1.33rem;
+        top: 34.55772113%;
+        left: 14.8%;
+    }
+    .boatAni{
+        animation: boat_des 1s 1;
+    }
+    @keyframes boat_des{
+        0%{
+            background-image: url("../image/player_boat_normal.png");
+        }
+        100%{
+            background-image: url("../image/player_boat_destroy.png");
+        }
+    }
+    .colAni{
+        animation: col_des 1s 1;
+    }
+    @keyframes col_des{
+        0%{
+            background-image: url("../image/column_normal.png");
+        }
+        100%{
+            background-image: url("../image/column_destroy.png");
+        }
+    }
+    .walAni{
+        animation: wal_des 1s 1;
+    }
+    @keyframes wal_des{
+        0%{
+            background-image: url("../image/wall_normal.png");
+        }
+        100%{
+            background-image: url("../image/wall_destroy.png");
+        }
+    }
+    .cityAni{
+        animation: city_des 1s 1;
+    }
+    @keyframes city_des {
+        0%{
+            background-image: url("../image/player_city_normal.png");
+        }
+        100%{
+            background-image: url("../image/player_city_destroy.png");
+        }
+    }
+    .def{
+        position: absolute;
+        top: 41.30434782%;
+        left: 12.93333333%;
+        width:5.63rem ;
+        height:2.46rem;
+        background-image: url("../image/defeat.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .npcAni{
+        animation: npc_des 1s 1;
+    }
+    @keyframes npc_des {
+        0%{
+            background-image: url("../image/npc_boat_normal.png");
+        }
+        100%{
+            background-image: url("../image/npc_boat_destroy.png");
+        }
+    }
+    .vic{
+        position: absolute;
+        top: 41.30434782%;
+        left: 12.93333333%;
+        width:5.63rem ;
+        height:2.46rem;
+        background-image: url("../image/victory.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .advertising{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:5.1rem ;
+        height:7.68rem;        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .addef{
+        background-image: url("../image/portfail_en.jpg");
+    }
+    .advic{
+        background-image: url("../image/portsuccess_en.jpg");
+    }
+    .pfSty1{
+        position: absolute;
+        width: 3.86rem;
+        height: 2.12rem;
+        top: 31.43328335%;
+        left: 19.466666666%;
+    }
+    .pfSty2{
+        position: absolute;
+        width: 3.86rem;
+        height: 2.12rem;
+        top: 41.97751124%;
+        left: 19.466666666%;
+    }
+    .pfSty3{
+        position: absolute;
+        width: 3.86rem;
+        height: 2.12rem;
+        top: 51.12293853%;
+        left: 19.466666666%;
+    }
+    .nfSty{
+        position: absolute;
+        width: 4.65rem;
+        height: 1.95rem;
+        top: 74.68665667%;
+        left: 12.93333333%;
+    }
+    .btn_op{
+        animation: btn_op 1s ease-in-out infinite;
+    }
+    @keyframes btn_op{
+        0%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 0;
+        }
+    } 

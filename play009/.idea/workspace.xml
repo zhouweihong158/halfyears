@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a20f876-ec35-4c48-b69a-2216732bca18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../langs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../langs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play001/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../play001/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play002/genAd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play002/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../play002/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play002/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../play002/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/genAd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_boat_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_boat_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_column_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_column_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_ready_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_ready_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_wall_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_wall_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/column_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/column_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/defeat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/npc_boat_destroy_H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/npc_boat_normal_H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_boat_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_boat_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_city_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_city_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/victory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/wall_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/wall_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/js/jquery.pietimer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play005/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../play005/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play005/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../play005/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play008/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../play008/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play014/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../play014/js/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1927949873">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="15" />
+          <entry key="html" value="12" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="6" />
+          <entry key="png" value="86" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="15" />
+          <entry key="HTML" value="12" />
+          <entry key="Image" value="91" />
+          <entry key="JavaScript" value="6" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="2949" />
+          <entry key="html" value="547" />
+          <entry key="js" value="3852" />
+          <entry key="xml" value="67" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="2949" />
+          <entry key="HTML" value="547" />
+          <entry key="JavaScript" value="3852" />
+          <entry key="XML" value="67" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/landscape.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2352">
+              <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>red</find>
+      <find>boatnum</find>
+      <find>boa</find>
+      <find>getnum</find>
+      <find>green</find>
+      <find>scale</find>
+      <find>addgetscore</find>
+      <find>allscore</find>
+      <find>font-</find>
+      <find>energyzhezhao</find>
+      <find>lang</find>
+      <find>langu</find>
+      <find>z-index</find>
+      <find>gr</find>
+      <find>gree</find>
+      <find>enter</find>
+      <find>areatop</find>
+      <find>is_</find>
+      <find>languag</find>
+      <find>area</find>
+      <find>force</find>
+      <find>score</find>
+      <find>boat</find>
+      <find>download</find>
+      <find>forcelanguage</find>
+      <find>down</find>
+      <find>getscore</find>
+      <find>p</find>
+      <find>downloads</find>
+      <find>1.5</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/portrait.css" />
+        <option value="$PROJECT_DIR$/langs.xml" />
+        <option value="$PROJECT_DIR$/fb/de/index_de.html" />
+        <option value="$PROJECT_DIR$/fb/en/index_en.html" />
+        <option value="$PROJECT_DIR$/fb/es/index_es.html" />
+        <option value="$PROJECT_DIR$/fb/fr/index_fr.html" />
+        <option value="$PROJECT_DIR$/fb/nl/index_nl.html" />
+        <option value="$PROJECT_DIR$/css/landscape.css" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1280" />
+    <option name="height" value="708" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="play009" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play009" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="play009" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play009" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="play009" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play009" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a20f876-ec35-4c48-b69a-2216732bca18" name="Default Changelist" comment="" />
+      <created>1544755729651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544755729651</updated>
+      <workItem from="1544755732392" duration="3568000" />
+      <workItem from="1544766787032" duration="10525000" />
+      <workItem from="1545013064855" duration="16892000" />
+      <workItem from="1545099207969" duration="4927000" />
+      <workItem from="1545113110828" duration="7052000" />
+      <workItem from="1545125194790" duration="402000" />
+      <workItem from="1545133809662" duration="71000" />
+      <workItem from="1545133985712" duration="1205000" />
+      <workItem from="1545185794492" duration="13513000" />
+      <workItem from="1545210446299" duration="6191000" />
+      <workItem from="1545271208305" duration="22637000" />
+      <workItem from="1545618661909" duration="1174000" />
+      <workItem from="1547445860954" duration="1401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="89558000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="24" width="1280" height="708" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.092136614" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3538961" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.0698052" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15091342" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4554295" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../play009s/play0091/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/image/bgvert.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/box1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/box2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/download.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/touchpoint.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/enterpot.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/hp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/hpempty.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/shipcombine.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/shipicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/deadship.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/portsuccess_en.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/portsuccess_nl.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/portrait.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/shipcombineland.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/enterland.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/langs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb/en/index_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="356" column="7" lean-forward="true" selection-start-line="356" selection-start-column="7" selection-end-line="356" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb/nl/index_nl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="360" column="32" lean-forward="true" selection-start-line="360" selection-start-column="32" selection-end-line="360" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb/fr/index_fr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="359" column="3" selection-start-line="359" selection-start-column="3" selection-end-line="360" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb/es/index_es.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="359" column="4" selection-start-line="359" selection-start-column="8" selection-end-line="360" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fb/de/index_de.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship4land.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship3land.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship2land.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/ship1land.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landscape.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2352">
+          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

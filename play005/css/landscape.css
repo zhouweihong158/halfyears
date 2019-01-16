@@ -1,0 +1,326 @@
+        #section{
+            width: 200%;
+            height: 100%;
+            margin:0 auto;
+            position: relative;
+            background:url("../image/bgmland.jpg");
+            background-position-x: 0;
+            background-position-y: 0;
+            background-repeat: repeat;
+            background-size:50% 100%;
+            overflow: hidden;
+        }
+        #capsule{
+            width:1.9rem;
+            height:0.2rem;
+            position: absolute;
+            top:45.733333333%;
+            left:5.844077961%;
+            /*top:3.43rem;*/
+            /*left:1.58rem;*/
+            z-index: 12;
+        }
+        .capsuleanimate{
+            animation:capsuleani linear 3s 1;
+        }
+        @keyframes capsuleani {
+            0%{
+                left:5.844077961%;
+            }
+            50%{
+                left:25%;
+                /*left:6.68rem;*/
+            }
+            100%{
+                left:5.844077961%;
+            }
+        }
+        #capsulecoat{
+            position: absolute;
+            left:15%;
+            top:-600%;
+            transform: rotate(90deg);
+            width: 1.33rem;
+            height:2.47rem;
+            background-image: url("../image/hudun.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        #spaceplane{
+            position: absolute;
+            top:-500%;
+            left:30%;
+            width:0.63rem;
+            height:2.1rem;
+            transform: rotate(90deg);
+            background-image: url("../image/submarine.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        #spaceplaneshadow{
+            position: absolute;
+            top:7%;
+            left:20%;
+            /*top:0.2rem;*/
+            /*left:0.3rem;*/
+            width:0.63rem;
+            height:2.11rem;
+            background-image: url("../image/submarineshadow.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        #times{
+            width: 0.83rem;
+            height:1.41rem;
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin: auto;
+            z-index: 16;
+        }
+        .time{
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            position: absolute;
+            top:0;
+            left:0;
+            opacity: 0;
+        }
+        .time1{
+            width: 0.48rem;
+            height:1.37rem;
+            background-image: url("../image/1x.png");
+        }
+        .time2{
+            width: 0.77rem;
+            height:1.32rem;
+            background-image: url("../image/2x.png");
+        }
+        .time3{
+            width: 0.83rem;
+            height:1.41rem;
+            background-image: url("../image/3x.png");
+        }
+        .timeanimate{
+            animation:timeani linear 1s  1;
+        }
+        @keyframes timeani {
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        #begin{
+            width: 100%;
+            height:100%;
+            background: transparent;
+            position: absolute;
+            top: 0;
+            left:0;
+            z-index: 20;
+        }
+    .languagefont{
+        width: 100%;
+        font-size:20px;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        color: #eca638;
+        bottom: 20%;
+    }
+        .download{
+            width:1.59rem;
+            height:0.75rem;
+            background-image:url("../image/xiazaianniu.png") ;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: fixed;
+            bottom:3.748125937%;
+            left: 6.6666666667%;
+            /*bottom:0.5rem;*/
+            /*left: 0.5rem;*/
+        }
+        #distance{
+            width: 4.55rem;
+            height:0.53rem;
+            position: fixed;
+            top:6.666666667%;
+            left:22.18890547%;
+            /*top:0.5rem;*/
+            /*left:2.96rem;*/
+            background-repeat: no-repeat;
+            background-size: 80% 100%;
+            background-image: url("../image/distance.png");
+            line-height: 0.5rem;
+            font-size: 18px;
+            color: #d2da85;
+        }
+        #coinnum{
+            position: fixed;
+            top:6.266666667%;
+            right:27.511244378%;
+            /*top:0.47rem;*/
+            /*right:3.67rem;*/
+        }
+        #coinnumleft{
+            float: left;
+            width:1.13rem;
+            height:0.69rem;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            font-size: 18px;
+            line-height: 0.67rem;
+            text-align: center;
+            color: #fff;
+            margin-right: 0.1rem;
+            background-image:url("../image/coinleft.png");
+        }
+        #coinnumright{
+            margin-top: -0.1rem;
+            width: 0.8rem;
+            height: 0.8rem;
+            float: right;
+            background-image: url("../image/coin4.png");
+            /*animation: coinanimate forwards 0.2s infinite;*/
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        #gold{
+            width: 0.8rem;
+            height:0.8rem;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url("../image/coin4.png");
+        }
+        .coinhighanimates{
+            opacity: 1;
+            animation: coinanimate forwards 0.2s 7;
+        }
+        .coindropanimates{
+            animation: coinanimate forwards 0.6s infinite,coindropanimate forwards linear 4s  1;
+        }
+        .pauses {
+            animation-play-state: paused;
+        }
+        @keyframes coindropanimate {
+            0%{
+                right: 0;
+            }
+            100%{
+                right:200%;
+            }
+        }
+        @keyframes coinanimate {
+            0%{
+                background-image: url("../image/coin1.png");
+            }
+            10%{
+                background-image: url("../image/coin2.png");
+            }
+            20%{
+                background-image: url("../image/coin3.png");
+            }
+            30%{
+                background-image: url("../image/coin4.png");
+            }
+            40%{
+                background-image: url("../image/coin5.png");
+            }
+            50%{
+                background-image: url("../image/coin6.png");
+            }
+            60%{
+                background-image: url("../image/coin7.png");
+            }
+            70%{
+                background-image: url("../image/coin8.png");
+            }
+            80%{
+                background-image: url("../image/coin9.png");
+            }
+            90%{
+                background-image: url("../image/coin10.png");
+            }
+            100%{
+                background-image: url("../image/coin1.png");
+            }
+        }
+        .exploreanimate{
+            animation: explore 0.3s 1;
+        }
+        @keyframes explore {
+            0%{
+                opacity: 0;
+            }
+            10%{
+                opacity: 1;
+            }
+            90%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        .watermineone{
+            width: 0.93rem;
+            height:1rem;
+            position: absolute;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .waterminethree{
+            width: 1.42rem;
+            height:1.3rem;
+            position: absolute;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .waterminefour{
+            width: 1.31rem;
+            height:1.2rem;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .dead{
+            width: 1.86rem;
+            height:1.2rem;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 100% 120%;
+        }
+        .explore{
+            position: absolute;
+            top:0;
+            right:-0.1rem;
+            width:2.5rem;
+            height:2.5rem;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .downloads{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width:7.68rem;
+            height:5.1rem;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            z-index: 100;
+        }
+        .bannersuccess{
+            background-image:url("../image/landsuccess_en.jpg");
+        }
+        .bannerfail{
+            background-image:url("../image/landfail_en.jpg");
+        }

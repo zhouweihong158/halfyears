@@ -1,0 +1,130 @@
+#map{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/bg.jpg);
+}
+.plate{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.launch{
+    width: 3.46rem;
+    height: 1.40rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/launch.png);
+    position: absolute;
+    bottom: 3.7481%;
+    left:  26.9333%;
+}
+.hand{
+    width: 0.76rem;
+    height: 0.76rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/hand.png);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: 4;
+    animation: fil .8s linear infinite;
+}
+@keyframes fil{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}    
+.dia{
+    width: 1.1rem;
+    height: 1.1rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;        
+    position: absolute;
+    top: 86.9565%;
+    left: 6.6666%;
+}
+.diadim{
+    background-image: url(../image/dia_dim.png);
+}
+.diabri{
+    background-image: url(../image/dia_bri.png);
+}
+.c0{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/c0.png);
+    position: absolute; 
+}
+.c1{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/c1.png);
+    position: absolute;
+}
+.c2{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/c2.png);
+    position: absolute; 
+}
+.c3{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/c3.png);
+    position: absolute;           
+} 
+.boom{
+    width: 1.50rem;
+    height: 1.50rem;
+    position: absolute;
+}
+.lvup{
+    width: 1.3rem;
+    height: 2.0rem;
+    position: absolute;
+}
+.rocket{
+    /* width: 0.17rem;
+    height: 1.27rem; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/rocket.png);
+    position: absolute;
+    top: 0%;
+}    
+.download{
+    width: 1.40rem;
+    height: 0.66rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../image/download.png);
+    position: absolute;
+    top: 78.7106%;
+    left: 76%;
+}
+.advertising{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5.1rem ;
+    height: 7.68rem;        
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.advic{
+    background-image: url("../image/portsuccess_es.jpg");
+}
+.addef{
+    background-image: url("../image/portfail_en.jpg");
+}

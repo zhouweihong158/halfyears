@@ -1,0 +1,173 @@
+    #box {
+        width: 100%;
+        height: 100%;
+        background-image: url("../image/bghori.jpg");
+        background-size: 100% 100%;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .mine{
+        width: 1.1rem;
+        height:1.15rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("../image/part003.png");
+    }
+    .starblock{
+        height: 100%;
+        width:0.81rem;
+        position: absolute;
+        right:15%;
+        top:0;
+        padding: 0 5%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .star{
+        width: 0.81rem;
+        height: 0.81rem;
+        float: left;
+        background-image: url("../image/graystar.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    #download{
+        width: 1.6rem;
+        height: 0.75rem;
+        position: absolute;
+        bottom: 0.3rem;
+        right:0;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("../image/downloadbutton.png");
+    }
+    #showarea{
+        height:100%;
+        width: 48.725637181%;
+        position: absolute;
+        left :25%;
+        top : 0;
+    }
+    .expectaera{
+        width: 3.03rem;
+        height: 2.47rem;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+        background-image: url("../image/spline.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x:center ;
+        background-position-y:center ;
+    }
+    .parts{
+        width: 1.25rem;
+        height:1.15rem;
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .none{
+        display: none;
+    }
+    .partanimate{
+        animation: partanimates 0.2s 1;
+    }
+    @keyframes partanimates {
+        100%{
+            top:40%;
+            left:40%;
+            transform: scale(0);
+        }
+    }
+    .getin{
+        width: 3.6rem;
+        height: 2rem;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin: auto;
+    }
+    .leveup{
+        width: 3rem;
+        height:2.25rem;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+    }
+    .leveupanimate{
+        animation: levelupanimate 1s 1;
+    }
+    @keyframes levelupanimate {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+    .exploreanimate{
+        animation: levelupanimate 1s 1;
+    }
+    .getinanimate{
+        animation: levelupanimate 1s 1;
+    }
+    .explore{
+        width: 2.5rem;
+        height: 2.5rem;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+    }
+    .downloads{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height:5.1rem;
+        width:7.68rem;
+        z-index: 2;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bannersuccess{
+        background-image:url("../image/landsuccess_en.jpg");
+    }
+    .bannerfail{
+        background-image:url("../image/landfail_en.jpg");
+    }
+    .shou{
+        width: 0.6rem;
+        height: 0.6rem;
+        position: absolute;
+        bottom: 0;
+        right:0;
+    }
+    .startransition{
+        animation: levelupanimate 1s 1;
+    }
+    .boattransition{
+        animation: levelupanimate 1s 1;
+    }
+    .zhezhao{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }

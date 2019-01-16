@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=IE9">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="tiile" content>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="css/landscape.css">
+    <link rel="stylesheet" media="all and (orientation:portrait)" href="css/portrait.css">
+    <title></title>
+</head>
+<body>
+    <section id="map">
+        <div class="languagefont">TDrag the Battleship and destroy the enemy</div>
+    </section>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.pietimer.min.js"></script>
+<script>
+    var is_land = true;
+    function orient() {
+        if (window.orientation == 90 || window.orientation == -90) {
+            //ipad、iphone竖屏；Andriod横屏
+            $("body").attr("class", "landscape");
+            (function (doc, win) {
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 1334) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            is_land = true;
+            orientation = 'landscape';
+            return false;
+        } else if (window.orientation == 0 || window.orientation == 180) {
+            //ipad、iphone横屏；Andriod竖屏
+            $("body").attr("class", "portrait");
+            (function (doc, win) {
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            is_land = false;
+            orientation = 'portrait';
+            return false;
+        }
+    }
+    orient();
+    window.addEventListener('orientationchange', function() {
+        location.reload(false);
+        // orient();
+    });
+    // var audio = document.getElementById('music');
+    // document.addEventListener('visibilitychange', function() {
+    //     if(audio!=null){
+    //         if(document.hidden){
+    //             audio.pause();
+    //         }else{
+    //             audio.play();
+    //         }
+    //     }
+    // });
+</script>
+<script src="js/index.js"></script>
+<script type="text/javascript"></script>
+</body>
+</html>

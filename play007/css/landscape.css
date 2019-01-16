@@ -1,0 +1,318 @@
+    #map{
+        width: 100%;
+        height: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/beijing_H.jpg);
+        position: relative;
+    }
+    .btn_begin{
+        position: absolute;
+        width: 3.90rem;
+        height: 1.21rem;
+        top: 42%;
+        left: 35.60719640%;
+        background-image: url(../image/kaishianniu2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        animation: gli 1s linear infinite;
+    }
+    .sta{
+        position: absolute;
+        color: #f6f6f6;
+        font-size: 0.65rem;
+        top: 0.15rem;
+        left: 0.91rem;
+    } 
+    @keyframes gli{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    .dia_fra{
+        width: 0.80rem;
+        height:1.48rem;
+        background-image: url(../image/zuanshikuang2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 3.2%;
+        left: 1.79910044%;
+        z-index: 4;
+    }
+    .dia_num{
+        font-size: 0.32rem;
+        color:#f6f6f6;
+        width: 100%;
+        text-align: center;
+        margin-top: 0.15rem;
+    }
+    .oship_fra{
+        width: 1.02rem;
+        height: 1.90rem;
+        background-image: url(../image/zhanjiankuang2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 3.2%;
+        right: 1.79910044%;
+        z-index: 3;
+    }
+    .oship_num{
+        font-size: 0.32rem;
+        color: #f6f6f6;
+        position: absolute;
+        top: 0.10rem;
+        left: 0.35rem;
+    }
+    .ts_fra{
+        width: 6.58rem;
+        height: 1.17rem;
+        background-image: url(../image/wenbenkuang2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 42.26666666%;
+        left: 25.33733133%;
+        z-index: 4;
+        display: none;
+    }
+    .ts_msg{
+        font-size: 0.38rem;
+        color: #f6f6f6;
+        position: absolute;
+        top: 0.35rem;
+        left: 0.67rem;
+    }
+    .fy_fra{
+        width: 2.48rem;
+        height: 1.01rem;
+        background-image: url(../image/jianzaoweizhi2x_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 71.66416791%;
+        display: none;
+    }
+    .fy_fra1{
+        top: 18.26666666%;
+    }
+    .fy_fra2{
+        top: 43.33333333%;
+    }
+    .fy_fra3{
+        top: 68.26666666%;
+    }
+    .d_arrow{
+        width: 0.69rem;
+        height: 0.77rem;
+        background-image: url(../image/jianzaoanniu2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position:absolute;
+        top: -0.04rem;
+        left: 0.94rem;
+        animation: downup 0.8s infinite;
+    }
+    @keyframes downup{
+        0% {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(0, -0.2rem);
+        }
+        100% {
+            transform: translate(0px, 0px);
+        }
+    }
+    .our_ship1{
+        width: 2.32rem;
+        height: 0.47rem;
+        background-image: url(../image/yijizhanjian2x_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+    .our_ship2{
+        width: 2.26rem;
+        height: 0.48rem;
+        background-image: url(../image/erjizhanjian2x_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .our_ship3{
+        width: 2.26rem;
+        height: 0.66rem;
+        background-image: url(../image/sanjihangmu2x_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .fywz1{
+        position: absolute;
+        left: 72.56371814%;
+        top: 20.53333333%;
+    }
+    .fywz2{
+        position: absolute;
+        left: 72.56371814%;
+        top: 45.6%;
+    }
+    .fywz3{
+        position: absolute;
+        left: 72.56371814%;
+        top: 70.6666666%;
+    }
+    .our_fire{
+        width: 1.15rem;
+        height: 1.05rem;
+        position: absolute;
+        top: -0.81rem;
+        left: -0.52rem;
+    }
+    .our_uptx{
+        width: 2.06rem;
+        height: 2.06rem;
+        position:absolute;
+        top: -0.71rem;
+        left: 0.1rem;
+    }
+    .our_hpfra{
+        width: 1.42rem;
+        height: 0.14rem;
+        background-image: url(../image/kongxue2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position:absolute;
+        top: 0.76rem;
+        left: 0.47rem;
+    }
+    .our_hp{
+        width: 100%;
+        height: 100%;
+        background-image: url(../image/wojunxuetiao2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+    .our_uparrow{
+        width: 0.50rem;
+        height: 0.62rem;
+        background-image: url(../image/shengjitubiao2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -0.35rem;
+        left: 1.83rem;
+        animation: downup 0.8s infinite;
+        z-index: 2;
+        display: none;
+    }
+    .ene_ship{
+        height: 0.42rem;
+        width: 2.23rem;
+        background-image: url(../image/dijunzhanjian2x_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+    .attwz1{
+        top: 22.93333333%;
+    }
+    .attwz2{
+        top: 47.2%;
+    }
+    .attwz3{
+        top: 71.46666666%;
+    }
+    .ene_hpfra{
+        width: 1.42rem;
+        height: 0.14rem;
+        background-image: url(../image/kongxue2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position:absolute;
+        top: 0.54rem;
+        left: 0.40rem;
+    }
+    .ene_hp{
+        width: 100%;
+        height: 100%;
+        background-image: url(../image/dijunxuetiao2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+    .ene_boom{
+        width: 2.74rem;
+        height: 2.49rem;
+        position:absolute;
+        top: -1.38rem;
+        left: -0.39rem;
+    }
+    .logo{
+        position: absolute;
+        z-index: 4;
+        width: 1.57rem;
+        height: 0.92rem;
+        bottom: 3.2%;
+        left: 1.79910044%;
+        background-image: url(../image/logo2x.png); 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;      
+    }
+    .download{
+        position: absolute;
+        width: 1.59rem;
+        height: 0.75rem;
+        bottom: 3.2%;
+        right: 1.79910044%;
+        background-image: url(../image/xiazaianniu2x.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;         
+    }
+    .warline{
+        height: 100%;
+        width: 0.02rem;
+        position: absolute;
+        left: 69.5%;
+        background: red;
+        z-index: 3;
+        animation: war 1s linear infinite;
+    }
+    @keyframes war{
+        0%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 0.5;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+    .advertising{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height:5.1rem;
+        width:7.68rem;        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .advic{
+        background-image: url("../image/land_en.jpg");
+    }
+    .addef{
+        background-image: url("../image/landfail_en.jpg");
+    }

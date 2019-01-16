@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body>
+    <!-- br_placeholder-->
+    <label>
+        <!--holdlanguage-->
+        <head>holdlanguage</head>
+        <body>
+    <!--英语--><en>hold and release</en>
+            <!--法语--><fr> Appuyez et relâchez</fr>
+            <!--荷兰语--><nl>Hou vast en dan laat los</nl>
+            <!--西语--><es>Sostén y suelta</es>
+        <!--德语--><de>Halten und loslassen</de>
+        </body>
+    </label>
+    <label>
+        <!--force-->
+        <head>forcelanguage</head>
+        <body>
+            <!--force-->
+            <!--英语--><en>strength</en>
+            <!--法语--><fr>Force</fr>
+            <!--荷兰语--><nl>kracht</nl>
+            <!--西语--><es>Fuerza</es>
+            <!--德语--><de>Kraft</de>
+        </body>
+    </label>
+    <label>
+        <!--great-->
+        <head>greatlanguage</head>
+        <body>
+
+            <!--英语--><en>great</en>
+            <!--法语--><fr>Excellent</fr>
+            <!--荷兰语--><nl>perfect</nl>
+            <!--西语--><es>Perfecto</es>
+            <!--德语--><de>Perfek</de>
+        </body>
+    </label>
+    <label>
+        <!--score-->
+        <head>scorelanguage</head>
+        <body>
+            <!--英语--><en>score</en>
+            <!--法语--><fr>Note</fr>
+            <!--荷兰语--><nl>punten</nl>
+            <!--西语--><es>Puntos</es>
+            <!--德语--><de>Note</de>
+        </body>
+    </label>
+</body>

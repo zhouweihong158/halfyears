@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="css/landscape.css">
+    <link rel="stylesheet" media="all and (orientation:portrait)" href="css/portrait.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div id="box">
+</div>
+<!--这话都递到这个份上了，就不知道我是什么意思。准备好年后辞职吧。待着也没什么意思了哇。-->
+<div id="myselfboat"></div>
+<div class="surface">
+    <div class="down"></div>
+    <div id="leftb" class="images"></div>
+    <div id="rightb" class="images"></div>
+    <div id="logo"></div>
+    <div id="score">0</div>
+    <div id="life">3</div>
+</div>
+<script>
+    var is_land;
+    function orient() {
+        if (window.orientation == 90 || window.orientation == -90) {
+            //ipad、iphone竖屏；Andriod横屏
+            $("body").attr("class", "landscape");
+            (function (doc, win) {
+                is_land=true;
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 1334) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            orientation = 'landscape';
+            return false;
+        } else if (window.orientation == 0 || window.orientation == 180) {
+            //ipad、iphone横屏；Andriod竖屏
+            $("body").attr("class", "portrait");
+            (function (doc, win) {
+                is_land=false;
+                var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt,recalc,false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document,window);
+            orientation = 'portrait';
+            return false;
+        }
+    }
+    orient();
+    window.addEventListener('orientationchange',function(){
+        location.reload(false);
+        orient();
+    });
+</script>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body>
+    <label>
+        <head>languagefont</head>
+        <body>
+            <en>Drag the Battleship and destroy the enemy</en><!--英语-->
+            <fr>Contrôlez des navires et détruisez l'ennemi</fr><!--法语-->
+            <nl>Trek het slagschip en vernietig de vijanden</nl><!--荷兰语-->
+            <es>Controla la nave y destruye al enemigo</es><!--西语-->
+            <de>Steuere das Kampfschiff und zerstöre den Feind</de><!--德语-->
+        </body>
+    </label>
+</body>

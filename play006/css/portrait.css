@@ -1,0 +1,193 @@
+    #map{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-size: 100% 100%;
+        background-repeat: repeat;
+        background-image: url(../image/bgvert.jpg);
+        top: 0;
+    }
+    .load1{
+        position: absolute;
+        z-index: 4;
+        width: 0.74rem;
+        height: 1.17rem;
+        top: 45.72713643%;
+        left: 44.93333333%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/3x.png);
+    }
+    .load2{
+        position: absolute;
+        z-index: 4;
+        width: 0.70rem;
+        height: 1.13rem;
+        top: 45.87706146%;
+        left: 45.2%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/2x.png);
+    }
+    .load3{
+        position: absolute;
+        z-index: 4;
+        width: 0.42rem;
+        height: 1.13rem;
+        top: 45.87706146%;
+        left: 47.2%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/1x.png);
+    }
+    .ship{
+        position: absolute;
+        background: url(../image/ourship_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 3; 
+    }
+    .bullet1{
+        position: absolute;
+        background: url(../image/bullet1_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .bullet2{
+        position: absolute;
+        background: url(../image/bullet2_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .bullet3{
+        position: absolute;
+        background: url(../image/bullet3_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .eneShip1{
+        position: absolute;
+        background: url(../image/enemy1_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 2;
+        width: 0.30rem;
+        height: 1.87rem;
+        transform: rotate(180deg);
+    }
+    .eneShip2{
+        position: absolute;
+        background: url(../image/enemy2_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 2;
+        width: 0.36rem;
+        height: 1.84rem;
+    }
+    .eneShip3{
+        position: absolute;
+        background: url(../image/enemy3_H.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 2;
+        width: 0.67rem;
+        height: 2.04rem;
+    }
+    .obstacle1{
+        position: absolute;
+        background: url(../image/obstacle1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 2.10rem;
+        height: 1.37rem;
+    }
+    .obstacle2{
+        position: absolute;
+        background: url(../image/obstacle2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 2.08rem;
+        height: 1.34rem; 
+    }
+    .obstacle3{
+        position: absolute;
+        background: url(../image/obstacle3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 0.96rem;
+        height: 1rem; 
+    }
+    .obstacle4{
+        position: absolute;
+        background: url(../image/obstacle4.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 1.42rem;
+        height: 1.30rem;
+    }
+    .obstacle5{
+        position: absolute;
+        background: url(../image/obstacle5.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 1.09rem;
+        height: 1.09rem;
+    }
+    .boom{
+        position: absolute;
+        z-index: 1;
+        width: 3rem;
+        height: 2.6rem;      
+    }
+    .lvup{
+        position: absolute;
+        z-index: 0;
+        width: 3.3rem;
+        height: 2.6rem;      
+    }
+    .pro{
+        width: 2.10rem;
+        height: 2.09rem;
+        background: url(../image/shell.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .advertising{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:5.1rem ;
+        height:7.68rem;        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .addef{
+        background-image: url("../image/portfail_en.jpg");
+    }
+    .advic{
+        background-image: url("../image/portsuccess_en.jpg");
+    }
+    .languagefont{
+        position: absolute;
+        width: 6.04rem;
+        height: 0.38rem;   
+        top: 68.14092953%;
+        left: 8.26666666%;
+        color: #eca638;
+        font-size: 20px;
+        /*white-space: nowrap; */
+        text-align: center;
+    }

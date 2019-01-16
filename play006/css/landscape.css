@@ -1,0 +1,194 @@
+    #map{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-size: 100% 100%; 
+        background-repeat: repeat;
+        background-image: url(../image/bghor.jpg);
+        /* background-position: 0% 0%; */
+    }
+    .load1{
+        position: absolute;
+        z-index: 4;
+        width: 0.74rem;
+        height: 1.17rem;
+        top: 42.13333333%;
+        left: 47.15142428%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/3x.png);
+    }
+    .load2{
+        position: absolute;
+        z-index: 4;
+        width: 0.70rem;
+        height: 1.13rem;
+        top: 42.66666666%;
+        left: 47.30134932%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/2x.png);
+    }
+    .load3{
+        position: absolute;
+        z-index: 4;
+        width: 0.42rem;
+        height: 1.13rem;
+        top: 42.4%;
+        left: 48.42578710%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-image: url(../image/1x.png);
+    }
+    .ship{
+        position: absolute;
+        z-index: 3;
+        position: absollute;
+        background: url(../image/ourship.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+    }
+    .bullet1{
+        position: absolute;
+        background: url(../image/bullet1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .bullet2{
+        position: absolute;
+        background: url(../image/bullet2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .bullet3{
+        position: absolute;
+        background: url(../image/bullet3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .eneShip1{
+        position: absolute;
+        background: url(../image/enemy1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 2;
+        width: 1.87rem;
+        height: 0.30rem;
+        transform: rotate(180deg);
+    }
+    .eneShip2{
+        position: absolute;
+        background: url(../image/enemy2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 2;
+        width: 1.84rem;
+        height: 0.36rem;
+    }
+    .eneShip3{
+        position: absolute;
+        background: url(../image/enemy3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 2;
+        width: 2.04rem;
+        height: 0.67rem;
+    }
+    .obstacle1{
+        position: absolute;
+        background: url(../image/obstacle1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 2.10rem;
+        height: 1.37rem;
+    }
+    .obstacle2{
+        position: absolute;
+        background: url(../image/obstacle2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 2.08rem;
+        height: 1.34rem; 
+    }
+    .obstacle3{
+        position: absolute;
+        background: url(../image/obstacle3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 0.96rem;
+        height: 1rem; 
+    }
+    .obstacle4{
+        position: absolute;
+        background: url(../image/obstacle4.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 1.42rem;
+        height: 1.30rem;
+    }
+    .obstacle5{
+        position: absolute;
+        background: url(../image/obstacle5.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        width: 1.09rem;
+        height: 1.09rem;
+    }
+    .boom{
+        position: absolute;
+        width: 3rem;
+        height: 2.6rem; 
+    }
+    .lvup{
+        position: absolute;
+        z-index: 0;
+        width: 3.3rem;
+        height: 2.6rem;      
+    }
+    .pro{
+        width: 2.10rem;
+        height: 2.09rem;
+        background: url(../image/shell.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: -1;
+    }
+    .advertising{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        height:5.1rem;
+        width:7.68rem;        
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .addef{
+        background-image: url("../image/landfail_en.jpg");
+    }
+    .advic{
+        background-image: url("../image/landsuccess_en.jpg");
+    }
+    .languagefont{
+        position: absolute;
+        width: 8.74rem;
+        height: 0.38rem;
+        top: 65.73333333%;
+        left: 18.14092953%;
+        color: #eca638;
+        font-size: 20px;
+        /* white-space: nowrap; */
+        text-align: center; 
+    }

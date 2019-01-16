@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=IE9">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="tiile" content>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" media="all and (orientation:landscape)" href="css/landscape.css">
+    <link rel="stylesheet" media="all and (orientation:portrait)" href="css/portrait.css">
+    <title></title>
+</head>
+<body>
+<section id="box">
+    <audio autoplay loop src="image/h51.mp3" type="audio/mpeg" id="music"></audio>
+    <ul class="score">
+        <li class="score1"><img class="scoreb1" src="image/zuanshi.png" alt=""><div class="right" id="tscore1">0</div></li>
+        <li class="score1"><img class="scoreb1" src="image/youtong.png" alt=""><div class="right" id="tscore2">0</div></li>
+        <li class="score1"><img class="scoreb1" src="image/tiekuang.png" alt=""><div class="right" id="tscore3">0</div></li>
+        <li class="score1"><img class="scoreb1" src="image/tongkuang.png" alt=""><div class="right" id="tscore4">0</div></li>
+    </ul>
+    <div id="number1" class="animate"></div>
+    <div id="number2"></div>
+    <div id="number3"></div>
+    <div id="number4"></div>
+    <div class="button">
+        <div class="buttonid" id="button1"></div>
+        <div class="buttonid" id="button2"></div>
+        <div class="buttonid" id="button3"></div>
+    </div>
+    <div class="jiantou jiantou1 none jiantouanimate"></div>
+    <div class="jiantou jiantou2 none jiantouanimate"></div>
+    <div class="jiantou jiantou3 none jiantouanimate"></div>
+    <div class="jiantou jiantou4 none jiantouanimate"></div>
+</section>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    function orient() {
+           if (window.orientation == 90 || window.orientation == -90) {
+            //ipad、iphone竖屏；Andriod横屏
+            $("body").attr("class", "landscape");
+               (function (doc, win) {
+                   var docEl = doc.documentElement,
+                       resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                       recalc = function () {
+                           var clientWidth = docEl.clientWidth;
+                           if (!clientWidth) return;
+                           docEl.style.fontSize = 100 * (clientWidth / 1334) + 'px';
+                       };
+                   if (!doc.addEventListener) return;
+                   win.addEventListener(resizeEvt, recalc, false);
+                   doc.addEventListener('DOMContentLoaded', recalc, false);
+               })(document,window);
+            orientation = 'landscape';
+            return false;
+        } else if (window.orientation == 0 || window.orientation == 180) {
+            //ipad、iphone横屏；Andriod竖屏
+            $("body").attr("class", "portrait");
+               (function (doc, win) {
+                   var docEl = doc.documentElement,
+                       resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                       recalc = function () {
+                           var clientWidth = docEl.clientWidth;
+                           if (!clientWidth) return;
+                           docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                       };
+                   if (!doc.addEventListener) return;
+                   win.addEventListener(resizeEvt, recalc, false);
+                   doc.addEventListener('DOMContentLoaded', recalc, false);
+               })(document,window);
+            orientation = 'portrait';
+            return false;
+        }
+        }
+        orient();
+        window.addEventListener('orientationchange', function() {
+            location.reload(false);
+            // orient();
+        });
+    var audio = document.getElementById('music');
+    document.addEventListener('visibilitychange', function() {
+        if(audio!=null){
+            if(document.hidden){
+                audio.pause();
+            }else{
+                audio.play();
+            }
+        }
+    });
+</script>
+<script src="js/index.js"></script>
+</body>
+</html>

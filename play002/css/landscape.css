@@ -1,0 +1,325 @@
+        #banner {
+            width: 100%;
+            height: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url("../image/bglandscape.jpg");
+            position: relative;
+        }
+        #score {
+            position: absolute;
+            top: 5.6%;
+            left: 20.539730135%;
+            /*top: 0.42rem;*/
+            /*left: 2.74rem;*/
+        }
+        #scorestyle {
+            width: 0.81rem;
+            height: 0.81rem;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url("../image/shujukuang.png");
+            float: left;
+            margin-right: 0.15rem;
+        }
+        #scorenum {
+            width: 1.54rem;
+            height: 0.85rem;
+            float: left;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            line-height: 0.85rem;
+            text-align: center;
+            font-size: 0.3rem;
+            color: #f9f9f9;
+            font-family: "sans-serif";
+            font-weight: bolder;
+            background-image: url("../image/shiyitu.png");
+        }
+        #myboat {
+            position: absolute;
+            top:83.33333333333%;
+            left: 27.886056972%;
+            /*top:6.25rem;*/
+            /*left: 3.72rem;*/
+            width: 1.78rem;
+            height: 0.97rem;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url("../image/zuoxiajiaochuan.png");
+        }
+        .myboatanimate{
+            animation: myboat 1s 1;
+        }
+        @keyframes myboat {
+            0%{
+                background-image: url("../image/zuoxiajiaochuan.png");
+            }
+            100%{
+                background-image: url("../image/zuoxiajiaochuancanhai.png");
+            }
+        }
+        #myenergy {
+            width: 2.08rem;
+            height: 0.28rem;
+            position: absolute;
+            top: 78.13333333%;
+            left: 22.788605697%;
+            /*top: 5.86rem;*/
+            /*left: 3.08rem;*/
+            background: transparent;
+            border: 2px solid #000;
+            box-sizing: border-box;
+        }
+        #mine {
+            width: 2rem;
+            height: 100%;
+            background: chartreuse;
+            transition: 1s;
+        }
+        #boss {
+            width: 3.38rem;
+            height: 1.99rem;
+            position: absolute;
+            top: 29.33333333333%;
+            left: 39.28035982%;
+            /*top: 2.22rem;*/
+            /*left: 5.24rem;*/
+            background-image: url("../image/bosschuan.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .bossboatanimate{
+            animation: bossboat 1s 1;
+        }
+        @keyframes bossboat {
+            0%{
+                background-image: url("../image/bosschuan.png");
+            }
+            100%{
+                width: 2.77rem;
+                height:1.59rem;
+                background-image: url("../image/bosschuancanhai.png");
+            }
+        }
+        #bossenergy {
+            width: 3.08rem;
+            height: 0.45rem;
+            position: absolute;
+            top:20%;
+            left: 40.47976012%;
+            /*top: 2rem;*/
+            /*left: 5.40rem;*/
+            border: 2px solid #000;
+            box-sizing: border-box;
+        }
+        #bosss {
+            width: 3rem;
+            height: 100%;
+            background: red;
+            transition: 1s;
+        }
+        #myimg {
+            width: 1.97rem;
+            height: 3.97rem;
+            position: absolute;
+            bottom: 4.533333333%;
+            left: 30.134932534%;
+            /*bottom: 0.34rem;*/
+            /*left: 4.02rem;*/
+        }
+        #myexplosion {
+            width: 1.2rem;
+            height: 1.2rem;
+            bottom: 4.533333333%;
+            left: 30.134932534%;
+            /*bottom: 0.34rem;*/
+            /*left: 4.02rem;*/
+            position: absolute;
+            background-image: url("../image/xiaochuanbaozha.gif");
+        }
+        #bossimg {
+            width: 2.07rem;
+            height: 3.96rem;
+            position: absolute;
+            left: 36.139334033%;
+            top: 40%;
+            /*left: 4.82rem;*/
+            /*top: 3rem;*/
+        }
+        #bossexplosion {
+            width: 3rem;
+            height: 2.6rem;
+            left: 36.131934033%;
+            top: 43.33333333%;
+            /*left: 4.82rem;*/
+            /*top: 3.25rem;*/
+            position: absolute;
+        }
+        #friends {
+            width: 3.09rem;
+            height: 2.01rem;
+            position: absolute;
+            top: -26.8%;
+            right: -23.163418291%;
+            /*top: -2.01rem;*/
+            /*right: -3.09rem;*/
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url("../image/youshangjiaochuan.png");
+        }
+        .friendsanimate {
+            animation: friendsanimates 1s 1 forwards;
+        }
+        @keyframes friendsanimates {
+            0% {
+                top: -26.8%;
+                right: -23.163418291%;
+            }
+            100% {
+                top: 3.2%;
+                right: 1.799100045%;
+            }
+        }
+        .friendleftimg {
+            width: 5.2rem;
+            height: 3rem;
+            position: absolute;
+            top: 10.6666666667%;
+            right:14.992503748%;
+            /*top: 0.8rem;*/
+            /*right:2rem;*/
+        }
+        .friendrightimg {
+            width: 6rem;
+            height: 2.6rem;
+            position: absolute;
+            top: 13.333333333%;
+            right:5.24736312%;
+            /*top: 1rem;*/
+            /*right:0.7rem;*/
+        }
+        #times {
+            font-size: 0.5rem;
+            font-family: "sans-serif";
+            color: seagreen;
+            opacity: 0;
+        }
+        .downloads {
+            width: 2.56rem;
+            height: 1.23rem;
+            background-image: url("../image/xiazaianniu.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 3.148425787%;
+            top: 48.4%;
+            /*left: 0.42rem;*/
+            /*top: 3.63rem;*/
+        }
+        #btnlist {
+            position: absolute;
+            bottom: 5.8666666667%;
+            right: 14.242878561%;
+            /*bottom: 0.44rem;*/
+            /*right: 1.9rem;*/
+        }
+        .btn {
+            width: 1.34rem;
+            height: 1.36rem;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .redbtn{
+            background-image: url("../image/weixiayagongjianniu.png");
+        }
+        .yellowbtn{
+            display: none;
+            background-image: url("../image/sosweixiayaanniu.png");
+        }
+        .sos {
+            opacity: 0;
+            background-image: url("../image/sosweixiayaanniu.png");
+        }
+        .yellowclick {
+            animation: yellowstyle 1s infinite;
+        }
+        @keyframes yellowstyle {
+            0% {
+                background-image: url("../image/sosweixiayaanniu.png");
+            }
+            50% {
+                background-image: url("../image/sosyixiayaanniu.png");
+            }
+        }
+        .clickbtn {
+            background-image: url("../image/weixiayagongjianniu.png");
+        }
+        .redclick {
+            animation: clickstyle 1s infinite;
+        }
+        @keyframes clickstyle {
+            0% {
+                background-image: url("../image/weixiayagongjianniu.png");
+            }
+            50% {
+                background-image: url("../image/yixiayagongjianniu.png");
+            }
+        }
+        .countdown {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 1.34rem;
+            height: 1.34rem;
+        }
+        .redborder {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url("../image/jingshihongkuang.png");
+        }
+        .redborderimage{
+            animation: redborderimages 1s infinite;
+        }
+        @keyframes redborderimages {
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 0.5;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        .advertising{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height:5.1rem;
+            width:7.68rem;
+            background-image: url("../image/land_en.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .bossbaozha{
+            position: absolute;
+            top:25.333333333%;
+            left:40%;
+            /*left:2.44rem;*/
+            width:3rem;
+            height:2.6rem;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-image: url("../image/bossbaozha.gif");
+        }
+        img{
+            float: left;
+        }

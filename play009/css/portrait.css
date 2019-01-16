@@ -1,0 +1,322 @@
+    #box{
+        width: 100%;
+        height: 100%;
+        background-image: url("../image/bgvert.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    #aside{
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        /*top:6.38rem;*/
+        left:0;
+        margin-top:-1.54rem;
+        background-image: url("../image/shipcombine.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width:2.39rem;
+        height:3.08rem;
+    }
+    #download{
+        width:1.32rem ;
+        height: 0.55rem;
+        background-image: url("../image/download.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom:10%;
+        left: 4.533333333%;
+        z-index: 99999;
+        /*bottom:1.33rem;*/
+        /*left: 0.34rem;*/
+    }
+    #getcore{
+        position: absolute;
+        bottom: 4.497751124%;
+        left: 4.26666667%;
+        /*bottom: 0.6rem;*/
+        /*left: 0.32rem;*/
+    }
+    #icon{
+        background-image: url("../image/shipicon.png");
+        background-size: 100% 100%; background-repeat: no-repeat;
+        width: 0.38rem;
+        height: 0.38rem;
+        float: left;
+    }
+    #getcorenum{
+        background-repeat: no-repeat;
+        background-size: 100% 100%; background-image: url("../image/box2.png");
+        width: 0.91rem;
+        height: 0.41rem;
+        margin-left: 0.1rem;
+        float: left;
+        font-size: 0.2rem;
+        font-family: "微软雅黑";
+        color: #fff;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+    #enter{
+        width: 3.78rem;
+        height:1.89rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right:0;
+        margin: 0 auto;
+        background-image:url("../image/enterpot.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .boat{
+        width:0.9rem;
+        height:2.8rem;
+        background-size: 100% 100%;
+        background-image: url("../image/ship1.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        right:0;
+        top: 77%;
+        /*bottom: 0.5rem;*/
+        margin: 0 auto;
+    }
+    #force{
+        width: 2.25rem;
+        height: 0.15rem;
+        border: 1px solid #000;
+        box-sizing: border-box;
+        position: absolute;
+        bottom:22.713643178% ;
+        right:6.26666667%;
+        /*bottom:3.03rem ;*/
+        /*right:0.47rem;*/
+    }
+    #energy{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right,#bbb,red);
+        background-color: transparent;
+        position: relative;
+    }
+    #energyzhezhao{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        height: 100%;
+        background:	#000;
+    }
+    .energyanimate{
+        animation: energyanimates linear 1.5s infinite;
+    }
+    @keyframes energyanimates {
+        0%{
+            width: 100%;
+        }
+        50%{
+            width: 0;
+        }
+        100%{
+            width:100%;
+        }
+    }
+    .forcescore{
+        position: absolute;
+        top: -0.5rem;
+        left:0;
+        font-size:16px;
+        font-weight: bolder;
+        color: #fff;
+    }
+    #score{
+        background-image: url("../image/box1.png");
+        width: 1.37rem;
+        height: 0.41rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        bottom:4.572713643%;
+        right:4%;
+        /*bottom: 0.61rem;*/
+        /*right:0.3rem;*/
+        font-size: 0.2rem;
+        font-family: "微软雅黑";
+        color: #fff;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+    #zhezhao{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        position: absolute;
+        top:0;
+        left: 0;
+    }
+    .holdlanguage{
+        width: 100%;
+        font-size:30px;
+        position: absolute;
+        text-align: center;
+        left: 0;
+        color: rgba(255,252,0,1);
+        bottom: 30%;
+    }
+    #cursor{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right:0;
+        margin: auto;
+        background-image: url("../image/touchpoint.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 0.8rem;
+        height: 0.85rem;
+    }
+    .pauses {
+        animation-play-state: paused;
+    }
+    .getscore{
+        font-size: 1.5rem;
+        position: absolute;
+        top: -1500%;
+        left: -200%;
+        line-height: 1.5rem;
+        margin: auto;
+        text-align: center;
+        z-index: 10000;
+    }
+    .green{
+        color: rgba(0,255,138,1);
+    }
+    .red{
+        color: red;
+    }
+    .addgetscore{
+       animation: addgetscoreanimate 0.8s linear 1 forwards;
+    }
+   @keyframes addgetscoreanimate {
+       100%{
+           top:0;
+           left:0;
+           transform: scale(0);
+       }
+   }
+   .getscoreopacity{
+       animation:getscoreopacityanimate 1s linear 1 forwards;
+   }
+   @keyframes getscoreopacityanimate {
+       0%{
+           opacity: 0;
+       }
+       100%{
+           opacity: 1;
+       }
+   }
+   #area{
+       width: 100%;
+       height: 0.1rem;
+       background: rgba(0,0,255,0.4);
+       position: absolute;
+       top:53%;
+       /*bottom: 46%;*/
+       left: 0;
+   }
+   #areatop{
+       width: 100%;
+       height: 0.1rem;
+       background: rgba(0,0,255,0.4);
+       position: absolute;
+       /*bottom:86%;*/
+       top:13%;
+       left: 0;
+   }
+
+   .zindex{
+       z-index: 10;
+   }
+   .opacitys{
+       animation: opacityanimate 1s infinite;
+   }
+   @keyframes opacityanimate {
+       0%{
+           opacity: 0.3;
+       }
+       50%{
+           opacity: 1;
+       }
+       100%{
+           opacity: 0.3;
+       }
+   }
+    .deadship{
+        width: 1.69rem;
+        height: 0.98rem;
+    }
+    .downloads{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:5.1rem;
+        height:7.68rem;
+        z-index: 2;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bannersuccess{
+        background-image:url("../image/portsuccess_en.jpg");
+    }
+    .scalescore{
+       animation: fontscale 1s linear 3;
+    }
+    @keyframes fontscale {
+        0%{
+            font-size: 0.2rem;
+            /*transform: scale(1);*/
+        }
+        50%{
+            font-size: 1rem;
+        }
+        100%{
+            font-size: 0.2rem;
+        }
+    }
+    .greatlanguage{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        position: absolute;
+        text-align: center;
+        font-size:50px;
+        color: yellow;
+        font-family: sans-serif;
+        font-weight:900;
+        top: 30%;
+        opacity: 0;
+    }
+    .greatanimates{
+        animation: greatanimate 2s 1;
+
+    }
+    @keyframes greatanimate {
+        0%{
+            opacity: 0;
+            z-index: 0;
+        }
+        30%{
+            opacity: 1;
+            z-index: 15;
+        }
+        70%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }

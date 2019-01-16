@@ -1,0 +1,183 @@
+    #box{
+        width: 100%;
+        height: 200%;
+        background-image:url("../image/portbannerss.jpg");
+        background-size: 100% 50%;
+        background-repeat: repeat;
+        position: relative;
+    }
+    .down{
+        background-image: url("../image/xiazaianniu.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 1.59rem;
+        height: 0.75rem;
+        position: fixed;
+        left: 3%;
+        top: 59%;
+        z-index: 999;
+    }
+    #leftb{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    #rightb{
+        transform: rotate(180deg);
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    .images{
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("../image/houtui.png");
+        height: 1.1rem;
+        width: 2.19rem;
+    }
+    #logo{
+        background-image: url("../image/logo.png");
+        background-size: 100% 100%; background-repeat: no-repeat;
+        width: 1.57rem;
+        height: 0.92rem;
+        position: fixed;
+        top: 1%;
+        left: 3%;
+    }
+    #score{
+        background-image: url("../image/jibuqi.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 0.95rem;
+        height: 0.93rem;
+        position: fixed;
+        top: 1%;
+        right: 3%;
+        color: #fff;
+        font-size: 20px;
+        line-height: 0.93rem;
+        text-align: center;
+    }
+    #life{
+        background-image: url("../image/mingshu.png");
+        background-size: 100% 100%; background-repeat: no-repeat;
+        width: 1.3rem;
+        height: 0.7rem;
+        position: fixed;
+        top: 59%;
+        right: 3%;
+        padding: 0 0.2rem;
+        box-sizing: border-box;
+        text-align: right;
+        line-height: 0.7rem;
+        font-size: 20px;
+        color: #fff;
+    }
+    #myselfboat{
+        background-repeat: no-repeat;
+        background-image: url("../image/zhanjian.png");
+        background-size: 100% 100%; width: 0.29rem;
+        height: 8.333333%;
+        /*height: 0.9rem;*/
+        position: absolute;
+        bottom:0;
+        left: 50%;
+    }
+    #opposite{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+    #opposite li{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .boatnum{
+        width: 2.1rem;
+        height: 0.65rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+    }
+    #first{
+        top:10.5%;
+    }
+    #second{
+        top:19%;
+    }
+    #third{
+        top:27%;
+    }
+    #fourth{
+        top: 36%;
+    }
+    #fifth{
+        top: 44%;
+    }
+    #sixth{
+        top: 52%;
+    }
+    #seventh{
+        top: 68.5%;
+    }
+    #eighth{
+        top: 77%;
+    }
+    #ninth{
+        top:85%;
+    }
+    .explore{
+        position: absolute;
+        top:0;
+        left:-100%;
+        margin:0 auto;
+        /*background: yellow;*/
+        width:1rem;
+        height:1rem;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #dashul{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        padding:3% 0;
+    }
+    .dashli{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        border-bottom: 2px dashed #fff;
+    }
+    .downloads{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:5.1rem;
+        height:7.68rem;
+        z-index: 2;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bannersuccess{
+        background-image:url("../image/portsuccess_en.jpg");
+    }
+    .bannerfail{
+        background-image:url("../image/portfail_en.jpg");
+    }

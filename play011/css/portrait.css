@@ -1,0 +1,188 @@
+    #box {
+        width: 100%;
+        height: 100%;
+        background-image: url("../image/bgvert.jpg");
+        background-size: 100% 100%;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+        .mine{
+            width: 1.1rem;
+            height:1.15rem;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url("../image/part003.png");
+        }
+        .starblock{
+            width: 100%;
+            height:0.81rem;
+            position: absolute;
+            bottom:14.092953523%;
+            /*bottom:1.88rem;*/
+            left:0;
+            padding: 0 5%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .star{
+            width: 0.88rem;
+            height: 0.81rem;
+            background-image: url("../image/graystar.png");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        #download{
+            width: 1.6rem;
+            height: 0.75rem;
+            position: absolute;
+            bottom: 0.3rem;
+            right:0.74rem;
+            z-index: 9;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-image: url("../image/downloadbutton.png");
+        }
+        #showarea{
+            width:100%;
+            height: 48.725637181%;
+            /*height:6.5rem;*/
+            position: absolute;
+            top:25%;
+            /*top:3.92rem;*/
+            left: 0;
+            /*background: yellow;*/
+        }
+
+        .expectaera{
+            width: 3.03rem;
+            height: 2.47rem;
+            /*width:55%;*/
+            /*height:60%;*/
+            /*width:5.38rem;*/
+            /*height:3rem;*/
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom: 0;
+            margin: auto;
+            /*top:27.692307692%;*/
+            /*left: 14.13333333%;*/
+            /*top:1.8rem;*/
+            /*left: 1.06rem;*/
+            background-image: url("../image/spline.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            /*background-size: 100% 100%;*/
+            background-position-x:center ;
+            background-position-y:center ;
+        }
+        .parts{
+            width: 1.25rem;
+            height:1.15rem;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .none{
+            display: none;
+        }
+        .partanimate{
+            animation: partanimates 0.2s 1;
+        }
+        @keyframes partanimates {
+           100%{
+               top:40%;
+               left:40%;
+               transform: scale(0);
+           }
+        }
+        .getin{
+            width: 3.6rem;
+            height: 2rem;
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin: auto;
+        }
+        .leveup{
+            width: 3rem;
+            height:2.25rem;
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom: 0;
+            margin: auto;
+        }
+        .leveupanimate{
+            animation: levelupanimate 1s 1;
+        }
+        @keyframes levelupanimate {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 100%;
+            }
+        }
+    .exploreanimate{
+        animation: levelupanimate 1s 1;
+    }
+    .getinanimate{
+        animation: levelupanimate 1s 1;
+    }
+        .explore{
+            width: 2.5rem;
+            height: 2.5rem;
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom: 0;
+            margin: auto;
+        }
+    .downloads{
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width:5.1rem;
+        height:7.68rem;
+        z-index: 2;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bannersuccess{
+        background-image:url("../image/portsuccess_en.jpg");
+    }
+    .bannerfail{
+        background-image:url("../image/portfail_en.jpg");
+    }
+    .shou{
+        width: 0.6rem;
+        height: 0.6rem;
+        position: absolute;
+        bottom: 0;
+        right:0;
+    }
+    .startransition{
+        animation: levelupanimate 1s 1;
+    }
+    .boattransition{
+        animation: levelupanimate 1s 1;
+    }
+    .zhezhao{
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+

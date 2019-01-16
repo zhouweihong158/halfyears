@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6057d1c1-aff1-4f15-8da2-94c2dbe815cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__MACOSX/play003/image/._level3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../langs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../langs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play001/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../play001/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genAd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/genAd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_boat_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_boat_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_column_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_column_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_ready_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_ready_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_wall_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/button_wall_press.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/column_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/column_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/defeat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/npc_boat_destroy_H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/npc_boat_normal_H.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_boat_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_boat_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_city_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/player_city_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/victory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/wall_destroy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/image/wall_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play004/js/jquery.pietimer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../play005/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../play005/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-991422934">
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="155" />
+          <entry key="html" value="8" />
+          <entry key="js" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="155" />
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="8" />
+          <entry key="html" value="2" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="2" />
+          <entry key="Image" value="1" />
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="85" column="32" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="32" />
+              <folding>
+                <element signature="e#2231#2500#0" />
+                <element signature="e#5144#5164#0" />
+                <element signature="e#5248#6113#0" />
+                <element signature="e#6139#6644#0" />
+                <element signature="e#6743#7146#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bossenergy</find>
+      <find>bossexplosion</find>
+      <find>baozha</find>
+      <find>bossbaozha</find>
+      <find>console.log</find>
+      <find>bossene</find>
+      <find>downloads</find>
+      <find>background</find>
+      <find>down</find>
+      <find>advertising</find>
+      <find>adver</find>
+      <find>cle</find>
+      <find>1000</find>
+      <find>100</find>
+      <find>set</find>
+      <find>animate</find>
+      <find>friendsanimate</find>
+      <find>animationend</find>
+      <find>myboatanimate</find>
+      <find>trans</find>
+      <find>8000</find>
+      <find>8</find>
+      <find>audio</find>
+      <find>has</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../play001 /play222fenli/index.html" />
+        <option value="$PROJECT_DIR$/../../play001 /unity/indexen.html" />
+        <option value="$PROJECT_DIR$/common.css" />
+        <option value="$PROJECT_DIR$/css/reset.css" />
+        <option value="$PROJECT_DIR$/js/jquery.pietimer.min.js" />
+        <option value="$PROJECT_DIR$/../adwords_landscape/index_landscape.html" />
+        <option value="$PROJECT_DIR$/../css/common.css" />
+        <option value="$PROJECT_DIR$/img.html" />
+        <option value="$PROJECT_DIR$/fb/index.html" />
+        <option value="$PROJECT_DIR$/fb/index_fb.html" />
+        <option value="$PROJECT_DIR$/fb/index_fben.html" />
+        <option value="$PROJECT_DIR$/css/common.css" />
+        <option value="$PROJECT_DIR$/css/portrait.css" />
+        <option value="$PROJECT_DIR$/css/landscape.css" />
+        <option value="$PROJECT_DIR$/../../adwords/land_nl/index_landscape.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="play002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="play002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play002" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="play002" type="b2602c69:ProjectViewProjectNode" />
+              <item name="play002" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/facebook" />
+      <recent name="$PROJECT_DIR$/image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image" />
+      <recent name="C:\Users\20911\Desktop\game222\play002\game2\image" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6057d1c1-aff1-4f15-8da2-94c2dbe815cf" name="Default Changelist" comment="" />
+      <created>1540810374791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540810374791</updated>
+      <workItem from="1540810376244" duration="666000" />
+      <workItem from="1540869007925" duration="3306000" />
+      <workItem from="1540880268895" duration="13410000" />
+      <workItem from="1540951482556" duration="13690000" />
+      <workItem from="1540980605490" duration="1986000" />
+      <workItem from="1541038444573" duration="15032000" />
+      <workItem from="1541124797000" duration="16180000" />
+      <workItem from="1541301522959" duration="6062000" />
+      <workItem from="1541323615473" duration="4940000" />
+      <workItem from="1541341471063" duration="2982000" />
+      <workItem from="1541370979880" duration="298000" />
+      <workItem from="1541414498363" duration="4309000" />
+      <workItem from="1541420614982" duration="363000" />
+      <workItem from="1541421969668" duration="661000" />
+      <workItem from="1541472517070" duration="25266000" />
+      <workItem from="1541506589663" duration="1172000" />
+      <workItem from="1541556738645" duration="487000" />
+      <workItem from="1541557387340" duration="1513000" />
+      <workItem from="1541561182365" duration="7237000" />
+      <workItem from="1541581875217" duration="982000" />
+      <workItem from="1541587009357" duration="925000" />
+      <workItem from="1541656853525" duration="4802000" />
+      <workItem from="1541989170349" duration="27000" />
+      <workItem from="1541989322223" duration="3527000" />
+      <workItem from="1542098179768" duration="1768000" />
+      <workItem from="1542266682084" duration="710000" />
+      <workItem from="1542278021132" duration="1888000" />
+      <workItem from="1542334145473" duration="120000" />
+      <workItem from="1542352469335" duration="642000" />
+      <workItem from="1542600196299" duration="5064000" />
+      <workItem from="1542700717000" duration="1000000" />
+      <workItem from="1542703833687" duration="853000" />
+      <workItem from="1543479219659" duration="644000" />
+      <workItem from="1544165390815" duration="1140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34594000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1437649" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="调试" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3273906" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fb/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/advertise_en.jpg" />
+    <entry file="file://$PROJECT_DIR$/../../adwords/land_nl/index_landscape.html" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="26" lean-forward="true" selection-end-line="1" selection-end-column="86841" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/portrait.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="336" column="25" selection-start-line="336" selection-start-column="25" selection-end-line="336" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/landscape.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="85" column="32" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="32" />
+          <folding>
+            <element signature="e#2231#2500#0" />
+            <element signature="e#5144#5164#0" />
+            <element signature="e#5248#6113#0" />
+            <element signature="e#6139#6644#0" />
+            <element signature="e#6743#7146#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

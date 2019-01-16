@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body>
+    <label>
+        <head>languagefont</head>
+        <body>
+    <!--英语--><en>  Tap the screen to start! br_placeholder Drag the submarine to collect coins.</en>
+            <!--法语--><fr> Cliquer pour commencer! br_placeholder Contrôlez le sous-marin pour collecter des pièces d'or.</fr>
+            <!--荷兰语--><nl>Tik om te starten! br_placeholder Trek de onderzeeër om munten te verzamelen.</nl>
+            <!--西语--><es>¡Clic para comenzar! br_placeholder Controla el submarino para recoger monedas.</es>
+        <!--德语--><de>  Tippe, um zu beginnen. br_placeholder Steuere das U-Boot, um Münzen zu sammeln.</de>
+        </body>
+    </label>
+</body>

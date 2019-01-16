@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<body>
+    <label>
+        <head>languagefont</head>
+        <body>
+            <!--英语--><en></en>
+            <!--法语--><fr></fr>
+            <!--荷兰语--><nl></nl>
+            <!--西语--><es></es>
+            <!--德语--><de></de>
+        </body>
+    </label>
+</body>

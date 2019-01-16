@@ -1,0 +1,161 @@
+ @media all and (orientation : portrait) {
+        #box{
+            background-image: url("../image/beijing.jpg");
+        }
+        .score{
+            position:absolute;
+            top:3.298350825%;
+            right:3.2%;
+            width: 2.2rem;
+            height:3.4rem;
+        }
+        .score1{
+            width:100%;
+            height:0.7rem;
+            margin-bottom: 0.2rem;
+        }
+        #number1{
+            top:25.637181409%;
+            left:15.46666666667%;
+        }
+        #number2{
+            bottom:60.944527736%;
+            left:32.666666%;
+            /*width:1.83rem;*/
+            /*height:0.98rem;*/
+        }
+        #number3{
+            top:23.68155922%;
+            right:44.2666667%;
+        }
+        #number4{
+            bottom:65.892053973%;
+            right:29.73333333%;
+        }
+        #bulid1{
+            top:19.87%;
+            left:16.53%;
+        }
+        #bulid2{
+            top:29.16041979%;
+            /*top:3.89rem;*/
+            left:34.5333333333%;
+            /*left:2.59rem;*/
+        }
+        #bulid3{
+            /*top:2.65rem;*/
+            /*left:2.83rem;*/
+            /*width:1.62rem;*/
+            /*height:1.20rem;*/
+            top:19.865067466%;
+            left:37.773333333%;
+        }
+        #bulid4{
+            top:22.413793103%;
+            left:48.8%;
+            /*top:2.99rem;*/
+            /*left:3.66rem;*/
+        }
+        .buildside1{
+            top:23.613193403%;
+            left:25.2%;
+            /*top:3.15rem;*/
+            /*left:1.89rem;*/
+        }
+        .buildside2{
+            bottom:61.1169415292%;
+            left:39.7333333333%;
+            /*bottom:8.16rem;*/
+            /*left:2.98rem;*/
+        }
+        .buildside3{
+            top:20.314842579%;
+            left:40.53333333333%;
+            /*top:2.71rem;*/
+            /*left:3.04rem;*/
+        }
+        .buildside4{
+            left:55.2%;
+            top:24.812593703%;
+            /*left:4.14rem;*/
+            /*top:3.31rem;*/
+        }
+        .jiantou1{
+            position: absolute;
+            top:17.84107946%;
+            left:25.333333333%;
+            /*top:2.38rem;*/
+            /*left:1.9rem;*/
+        }
+        .jiantou2{
+            position: absolute;
+            top:26.236881559%;
+            left:41.86666666667%;
+            /*top:3.5rem;*/
+            /*left:3.14rem;*/
+        }
+        .jiantou3{
+            position: absolute;
+            top:17.391304348%;
+            left:42.4%;
+            /*top:2.32rem;*/
+            /*left:3.18rem;*/
+        }
+        .jiantou4{
+            position: absolute;
+            top:21.889055472%;
+            left:57.6%;
+            /*top:2.92rem;*/
+            /*left:4.32rem;*/
+        }
+        .boat1{
+            top:61.844077961%;
+            /*left:2.35rem;*/
+            /*top:8.25rem;*/
+            left:31.333333334%;
+        }
+        .boat2{
+            top:53.448275862%;
+            left:54.53333333333%;
+            /*top:7.13rem;*/
+            /*left:4.09rem;*/
+        }
+        .boat3{
+            width:1.13rem;
+            height:0.79rem;
+            position:absolute;
+            top:47.30134935%;
+            left:80.266666667%;
+            /*top:6.31rem;*/
+            /*left:6.02rem;*/
+            background-size:100% 100%;
+            /*background-size:1.13rem 0.79rem;*/
+            background-repeat:no-repeat;
+            background-image: url('../image/movezhanliejian.png');
+        }
+        .boat3animate{
+            animation: boat 1s 1 forwards;
+        }
+        @-webkit-keyframes boat {
+            0% {
+                transform: translate(0, 0);
+            }
+            100% {
+                transform: translate(1.48rem,0.84rem);
+            }
+        }
+        .boat1animate{
+            transition:3s;
+            transform:translate(5.15rem,3.76rem);
+        }
+        .boat2animate{
+            transition:5s;
+            transform:translate(3.41rem,0.95rem);
+        }
+        .downloads{
+            width:5.1rem;
+            height:7.68rem;
+            background-image: url('../image/tanchukuang.jpg');
+        }
+    }
+
